@@ -4,9 +4,9 @@ zpArdoise是[Zenphoto CMS]（http://www.zenphoto.org）的主题，继承自zpGa
 
 ###重要
 要使用主题版本1.4.14，您必须将Zenphoto升级到1.4.14或更高**。
-如果您使用另一版Zenphoto，请参阅[Github上的zpArdoise档案]（https://github.com/vincent3569/zpArdoise/releases）。
+如果您使用另一版Zenphoto，请参阅[Github上的zpArdoise档案](https://github.com/vincent3569/zpArdoise/releases)。
 
-您可以在[Zenphoto论坛]（http://www.zenphoto.org/support/）上报告错误，或者在[GitHub]（https://github.com/vincent3569/zpArdoise/issues）上创建问题，以及我会尽快修复它（只支持最新版本）。您还可以通过[Pull requests]（https://github.com/vincent3569/zpArdoise/pulls）改进主题。
+您可以在[Zenphoto论坛]（http://www.zenphoto.org/support/）上报告错误，或者在[GitHub](https://github.com/vincent3569/zpArdoise/issues)上创建问题，以及我会尽快修复它(只支持最新版本)。您还可以通过[Pull requests](https://github.com/vincent3569/zpArdoise/pulls)改进主题。
 
 请注意，Zenphoto团队建议定期使用最新版本的Zenphoto升级其网站，以便从应用程序的最新功能中受益，解决各种安全漏洞，并受益于Zenphoto团队的支持。
 
@@ -31,4 +31,4 @@ zpArdoise是[Zenphoto CMS]（http://www.zenphoto.org）的主题，继承自zpGa
  - 如果您使用较旧版本的主题，请清除图像缓存以使用新尺寸的缩略图和图像重新生成它
 
 ### 更新日志
-请阅读[changelog.txt]（https://github.com/vincent3569/zpArdoise/blob/master/changelog.txt）
+请阅读[changelog.txt](https://github.com/vincent3569/zpArdoise/blob/master/changelog.txt)
