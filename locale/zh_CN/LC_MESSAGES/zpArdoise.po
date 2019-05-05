@@ -118,3 +118,7 @@ msgid ""
 msgstr ""
 "在图像页面上显示EXIF数据（相机型号，焦距，光圈，曝光时间，ISO速度）。 但您必"
 "须在管理>图片>信息EXIF中允许显示这些EXIF数据。"
+
+#: theme_description.php:7
+msgid "Zenphoto theme, inherited from initial release of zpGalleriffic theme. Please read"
+msgstr "Zenphoto主题，继承自zpGalleriffic主题的初始版本。请阅读"
