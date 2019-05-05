@@ -78,21 +78,21 @@ class ThemeOptions {
 		}
 
 		return array(
-			gettext('Use this file as logo') => array('order' => 0, 'key' => 'use_image_logo_filename', 'type' => OPTION_TYPE_TEXTBOX, 'multilingual' => 0, 'desc' => gettext_th('Image file for the logo area: enter the full filename (including extension) of the image file located in themes/zpArdoise/images/ (banniere1.jpg for example).', 'zpArdoise')),
-			gettext('Show the logo on Image page') => array('order' => 1, 'key' => 'show_image_logo_on_image', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Check to show the logo on the Image page.', 'zpArdoise')),
-			gettext('Style') => array('order' => 2, 'key' => 'css_style', 'type' => OPTION_TYPE_CUSTOM, 'desc' => gettext_th('Choose Dark or Light for color style of the site.', 'zpArdoise')),
-			gettext('Color') => array('order' => 3, 'key' => 'color_style', 'type' => OPTION_TYPE_CUSTOM, 'desc' => gettext_th('Choose the color of links: choose Default to use the default color of Dark or Light style and choose Custom to use a custom value. You can customize these values by editing the file theme/zpArdoise/css/custom.css.', 'zpArdoise')),
-			gettext('Homepage') => array('order' => 4, 'key' => 'zenpage_homepage', 'type' => OPTION_TYPE_SELECTOR, 'selections' => $unpub_list, 'null_selection' => gettext('none'), 'desc' => gettext("Choose here any <em>un-published Zenpage page</em> (listed by <em>titlelink</em>) to act as your site’s homepage instead the normal gallery index.")
-																																																. "<p class='notebox'>" . gettext("<strong>Note:</strong> This of course overrides the <em>News on index page</em> option and your theme must be setup for this feature! Visit the theming tutorial for details.") . "</p>"),
-			gettext('Show Archive link') => array('order' => 5, 'key' => 'show_archive', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Display a menu link to the Archive list.', 'zpArdoise')),
-			gettext('Allow search') => array('order' => 6, 'key' => 'allow_search', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext('Check to enable search form.')),
-			gettext('Show Tags') => array('order' => 7, 'key' => 'show_tag', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Check to show a tag cloud with all the tags of the gallery.', 'zpArdoise')),
-			gettext('Show Image Statistic strip') => array('order' => 8, 'key' => 'image_statistic', 'type' => OPTION_TYPE_CUSTOM, 'desc' => gettext_th('Shows a strip of thumbnails on Gallery page, depending of the selected option. NOTE: For anything other than random, the image_album_statistics plugin must be activated.', 'zpArdoise')),
-			gettext('Use Galleriffic script') => array('order' => 9, 'key' => 'use_galleriffic', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Check to use the Galleriffic script. Uncheck to use a standard display. This standard display is also displayed when javascript is disabled in the browser.', 'zpArdoise')),
-			gettext('Galleriffic slideshow delay') => array('order' => 10, 'key' => 'galleriffic_delai', 'type' => OPTION_TYPE_TEXTBOX, 'desc' => gettext_th('If Galleriffic is used, enter the delay of the gallerific slideshow in ms (eg 3000).', 'zpArdoise')),
-			gettext('Use Colorbox in Album page') => array('order' => 11, 'key' => 'use_colorbox_album', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Check to display the full size image with Colorbox in album page, if galleriffic is used or not. NOTE : in that case, Image page will never be used.', 'zpArdoise')),
-			gettext('Use Colorbox in Image page') => array('order' => 12, 'key' => 'use_colorbox_image', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Check to display the full size image with Colorbox in Image page.', 'zpArdoise')),
-			gettext('Show image EXIF data') => array('order' => 13, 'key' => 'show_exif', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('Show the main EXIF Data on Image page (Model, FocalLength, FNumber, ExposureTime, ISOSpeedRatings). Remember you have to check these EXIFs data on Admin>Options>Image>Metadata.', 'zpArdoise'))
+			gettext('徽标文件位置') => array('order' => 0, 'key' => 'use_image_logo_filename', 'type' => OPTION_TYPE_TEXTBOX, 'multilingual' => 0, 'desc' => gettext_th('徽标区域的图像文件：输入位于themes/zpArdoise/images/中的图像文件的完整文件名（包括扩展名）（例如banniere1.jpg）。', 'zpArdoise')),
+			gettext('是否显示徽标') => array('order' => 1, 'key' => 'show_image_logo_on_image', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('选中以在图像页面上显示徽标。', 'zpArdoise')),
+			gettext('风格') => array('order' => 2, 'key' => 'css_style', 'type' => OPTION_TYPE_CUSTOM, 'desc' => gettext_th('选择Dark或Light作为网站的颜色样式。', 'zpArdoise')),
+			gettext('颜色') => array('order' => 3, 'key' => 'color_style', 'type' => OPTION_TYPE_CUSTOM, 'desc' => gettext_th('选择链接的颜色：选择“默认”会使用“暗”或“浅”样式的默认颜色，选择“自定义”可以使用自定义值。同时您还可以通过编辑文件theme/zpArdoise/css/custom.css来自定义这些值。', 'zpArdoise')),
+			gettext('主页') => array('order' => 4, 'key' => 'zenpage_homepage', 'type' => OPTION_TYPE_SELECTOR, 'selections' => $unpub_list, 'null_selection' => gettext('none'), 'desc' => gettext("在此选择任何<em>未发布的Zenpage页面</em>（由<em>titlelink</em>列出）作为您网站的主页，而不是正常的图库索引。")
+																																																. "<p class='notebox'>" . gettext("<strong>注意：</strong>这会覆盖<em>索引页面上的新闻</em>选项，并且必须为此功能设置主题！有关详细信息，请访问主题教程。") . "</p>"),
+			gettext('显示记录模式链接') => array('order' => 5, 'key' => 'show_archive', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('显示记录模式的菜单链接。', 'zpArdoise')),
+			gettext('允许搜索') => array('order' => 6, 'key' => 'allow_search', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext('启用搜索表单。')),
+			gettext('显示标签') => array('order' => 7, 'key' => 'show_tag', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('显示包含图库所有标记的标记云。', 'zpArdoise')),
+			gettext('显示相册底部图像条') => array('order' => 8, 'key' => 'image_statistic', 'type' => OPTION_TYPE_CUSTOM, 'desc' => gettext_th('根据所选选项在“图库”页面上显示一条缩略图。注意：对于除随机以外的任何内容，都必须激活image_album_statistics插件。', 'zpArdoise')),
+			gettext('使用Galleriffic脚本') => array('order' => 9, 'key' => 'use_galleriffic', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('选中此项可以使用Galleriffic脚本。否则使用标准显示。当浏览器禁用javascript时，会使用标准显示。', 'zpArdoise')),
+			gettext('Galleriffic幻灯片延迟') => array('order' => 10, 'key' => 'galleriffic_delai', 'type' => OPTION_TYPE_TEXTBOX, 'desc' => gettext_th('如果使用了Galleriffic，请以毫秒为单位输入画廊幻灯片的延迟（例如3000）。PS：1秒等于1000毫秒。', 'zpArdoise')),
+			gettext('在相册页面中使用Colorbox') => array('order' => 11, 'key' => 'use_colorbox_album', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('在启用Galleriffic的情况下，选中此项Colorbox将在相册页面中显示完整尺寸的图像。注意：在这种情况下，永远不会使用图像页面！', 'zpArdoise')),
+			gettext('在图像页面中使用Colorbox') => array('order' => 12, 'key' => 'use_colorbox_image', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('在启用Colorbox的情况下，选中此项Colorbox将会在图像页面显示完整尺寸的图像。', 'zpArdoise')),
+			gettext('显示图像EXIF数据') => array('order' => 13, 'key' => 'show_exif', 'type' => OPTION_TYPE_CHECKBOX, 'desc' => gettext_th('在图像页面上显示主要的EXIF数据（Model，FocalLength，FNumber，ExposureTime，ISOSpeedRatings）。请记住，您必须在管理>选项>图像>元数据。上检查这些EXIF数据。', 'zpArdoise'))
 		);
 	}
 
@@ -102,15 +102,15 @@ class ThemeOptions {
 			echo '<select style="width: 200px;" id="' . $option . '" name="' . $option . '"' . ">\n";
 			echo '<option value="dark"';
 				if ($currentValue == 'dark') {
-					echo ' selected="selected">Dark</option>\n';
+					echo ' selected="selected">黑暗风格</option>\n';
 				} else {
-					echo '>Dark</option>\n';
+					echo '>黑暗风格</option>\n';
 				}
 			echo '<option value="light"';
 				if ($currentValue == 'light') {
-					echo ' selected="selected">Light</option>\n';
+					echo ' selected="selected">明亮风格</option>\n';
 				} else {
-					echo '>Light</option>\n';
+					echo '>明亮风格</option>\n';
 				}
 			echo "</select>\n";
 		}
@@ -119,15 +119,15 @@ class ThemeOptions {
 			echo '<select style="width: 200px;" id="' . $option . '" name="' . $option . '"' . ">\n";
 			echo '<option value="default"';
 				if ($currentValue == 'default') {
-					echo ' selected="selected">Default</option>\n';
+					echo ' selected="selected">使用主题默认</option>\n';
 				} else {
-					echo '>Default</option>\n';
+					echo '>使用主题默认</option>\n';
 				}
 			echo '<option value="custom"';
 				if ($currentValue == 'custom') {
-					echo ' selected="selected">Custom</option>\n';
+					echo ' selected="selected">使用风格默认</option>\n';
 				} else {
-					echo '>Custom</option>\n';
+					echo '>使用风格默认</option>\n';
 				}
 			echo "</select>\n";
 		}
@@ -136,51 +136,51 @@ class ThemeOptions {
 			echo '<select style="width: 200px;" id="' . $option . '" name="' . $option . '"' . ">\n";
 			echo '<option value="none"';
 				if ($currentValue == 'none') {
-					echo ' selected="selected">None</option>\n';
+					echo ' selected="selected">无/不显示/关闭</option>\n';
 				} else {
-					echo '>None</option>\n';
+					echo '>无/不显示/关闭</option>\n';
 				}
 			echo '<option value="random"';
 				if ($currentValue == 'random') {
-					echo ' selected="selected">Random</option>\n';
+					echo ' selected="selected">随机显示</option>\n';
 				} else {
-					echo '>Random</option>\n';
+					echo '>随机显示</option>\n';
 				}
 			echo '<option value="popular"';
 				if ($currentValue == 'popular') {
-					echo ' selected="selected">Popular</option>\n';
+					echo ' selected="selected">显示流行的</option>\n';
 				} else {
-					echo '>Popular</option>\n';
+					echo '>显示流行的</option>\n';
 				}
 			echo '<option value="latest"';
 				if ($currentValue == 'latest') {
-					echo ' selected="selected">Latest</option>\n';
+					echo ' selected="selected">显示最近的相册</option>\n';
 				} else {
-					echo '>Latest</option>\n';
+					echo '>显示最近的相册</option>\n';
 				}
 			echo '<option value="latest-date"';
 				if ($currentValue == 'latest-date') {
-					echo ' selected="selected">Latest-date</option>\n';
+					echo ' selected="selected">显示最新的相片</option>\n';
 				} else {
-					echo '>Latest-date</option>\n';
+					echo '>显示最新的相片</option>\n';
 				}
 			echo '<option value="latest-mtime"';
 				if ($currentValue == 'latest-mtime') {
-					echo ' selected="selected">Latest-mtime</option>\n';
+					echo ' selected="selected">显示最近修改过相册</option>\n';
 				} else {
-					echo '>Latest-mtime</option>\n';
+					echo '>显示最近修改过相册</option>\n';
 				}
 			echo '<option value="mostrated"';
 				if ($currentValue == 'mostrated') {
-					echo ' selected="selected">Most Rated</option>\n';
+					echo ' selected="selected">显示评分高的</option>\n';
 				} else {
-					echo '>Most Rated</option>\n';
+					echo '>显示评分高的</option>\n';
 				}
 			echo '<option value="toprated"';
 				if ($currentValue == 'toprated') {
-					echo ' selected="selected">Top Rated</option>\n';
+					echo ' selected="selected">显示评分最高的(Top)</option>\n';
 				} else {
-					echo '>Top Rated</option>\n';
+					echo '>显示评分最高的(Top)</option>\n';
 				}
 			echo "</select>\n";
 		}
