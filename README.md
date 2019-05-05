@@ -30,7 +30,5 @@ zpArdoise是[Zenphoto CMS]（http://www.zenphoto.org）的主题，继承自zpGa
  - 导航到选项>主题以查看和配置zpArdoise的可用选项
  - 如果您使用较旧版本的主题，请清除图像缓存以使用新尺寸的缩略图和图像重新生成它
 
-### ChangeLog
+### 更新日志
 请阅读[changelog.txt]（https://github.com/vincent3569/zpArdoise/blob/master/changelog.txt）
-ZpArdoise
-============
