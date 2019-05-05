@@ -23,7 +23,7 @@ zpArdoise是[Zenphoto CMS](http://www.zenphoto.org)的主题，继承自zpGaller
 
 如果您使用Galleriffic脚本，则不应该有任何混合子专辑和图片的专辑（在这种情况下，没有导航栏，因此所有子专辑可能不会显示在album.php上）。
 
-###安装
+### 安装
  - 将zip文件上传到您的计算机
  - 在本地解压缩下载的zip文件，并将zpArdoise /文件夹上传到Zenphoto网站的目录/ themes /
  - 在Zenphoto管理中，转到主题选项卡并激活zpArdoise主题
