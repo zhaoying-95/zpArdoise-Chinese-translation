@@ -3,7 +3,7 @@ zpArdoise是[Zenphoto CMS](http://www.zenphoto.org)的主题，继承自zpGaller
 随意下载和使用它，并提前感谢您的反馈！
 
 ###重要
-要使用主题版本1.4.14，您必须将Zenphoto升级到1.4.14或更高**。
+要使用主题版本1.4.14，您必须将Zenphoto升级到1.4.14或更高版本。
 如果您使用另一版Zenphoto，请参阅[Github上的zpArdoise档案](https://github.com/vincent3569/zpArdoise/releases)。
 
 您可以在[Zenphoto论坛](http://www.zenphoto.org/support/)上报告错误，或者在[GitHub](https://github.com/vincent3569/zpArdoise/issues)上创建问题，以及我会尽快修复它(只支持最新版本)。您还可以通过[Pull requests](https://github.com/vincent3569/zpArdoise/pulls)改进主题。
@@ -14,7 +14,7 @@ zpArdoise是[Zenphoto CMS](http://www.zenphoto.org)的主题，继承自zpGaller
 -----------
 
 该主题支持以下Zenphoto插件：
- -  cacheManager，colorbox，comment_form，contact_form，dynamic-locale，favoritesHandler，federated_logon，flag_thumbnail，GoogleMap，image_album_statistics，print_album_menu，rating，register_user，RSS，slideshow（** only colorbox option **），user_login-out，zenpage
+ -  cacheManager，colorbox，comment_form，contact_form，dynamic-locale，favoritesHandler，federated_logon，flag_thumbnail，GoogleMap，image_album_statistics，print_album_menu，rating，register_user，RSS，slideshow（only colorbox option），user_login-out，zenpage
 
 使用的其他脚本：
  -  Galleriffic（用于丰富体验和快速表现的照片画廊的jQuery插件）
