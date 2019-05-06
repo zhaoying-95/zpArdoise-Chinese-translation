@@ -1,3 +1,5 @@
+这是一份Zenphoto主题zpArdoise的中文翻译。
+
 zpArdoise是[Zenphoto CMS](http://www.zenphoto.org)的主题，继承自zpGalleriffic主题的初始版本。
 
 随意下载和使用它，并提前感谢您的反馈！
